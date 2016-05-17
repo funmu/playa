@@ -88,7 +88,7 @@ class NRFCalendarDay:
         # 4. Calculate number of weeks in month if it is a new month
         if ( self.Retail454dayofmonth == 1):
             self.Retail454weeksinmonth = self.NumWeeksInMonth( givenMonth);
-            self.Retail454quarter = self.Retail454month / 4 + 1;
+            self.Retail454quarter = self.Retail454month / 3 + 1;
 
         # 5. Calculate week of year and udpate accordingly
         self.Retail454weekofyear = self.calcWeekOfYear();
